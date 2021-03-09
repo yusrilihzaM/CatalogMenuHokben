@@ -1,4 +1,4 @@
-package com.yusril.submission_pemula
+package com.yusril.submission_pemula.activity
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -12,6 +12,7 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
+import com.yusril.submission_pemula.R
 import com.yusril.submission_pemula.model.Menu
 import java.net.URLEncoder
 

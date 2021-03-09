@@ -1,4 +1,4 @@
-package com.yusril.submission_pemula
+package com.yusril.submission_pemula.activity
 
 import android.content.Intent
 import android.os.Bundle
@@ -8,6 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.yusril.submission_pemula.R
 import com.yusril.submission_pemula.adapter.CardMenuAdapter
 import com.yusril.submission_pemula.adapter.GridMenuAdapter
 import com.yusril.submission_pemula.adapter.ListMenuAdapter

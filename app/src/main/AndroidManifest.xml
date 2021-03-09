@@ -12,24 +12,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Submission1">
-        <activity android:name="com.yusril.submission_pemula.ProfilActivity">
+        <activity android:name="com.yusril.submission_pemula.activity.ProfilActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.yusril.submission_pemula.MainActivity" />
+                android:value="com.yusril.submission_pemula.activity.MainActivity" />
         </activity>
-        <activity android:name="com.yusril.submission_pemula.DetailActivity">
+        <activity android:name="com.yusril.submission_pemula.activity.DetailActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.yusril.submission_pemula.MainActivity" />
+                android:value="com.yusril.submission_pemula.activity.MainActivity" />
         </activity>
-        <activity android:name="com.yusril.submission_pemula.SplashScreen">
+        <activity android:name="com.yusril.submission_pemula.activity.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.yusril.submission_pemula.MainActivity" />
+        <activity android:name="com.yusril.submission_pemula.activity.MainActivity" />
 
         <meta-data
             android:name="preloaded_fonts"

@@ -8,7 +8,7 @@ import android.widget.*
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
-import com.yusril.submission_pemula.DetailActivity
+import com.yusril.submission_pemula.activity.DetailActivity
 import com.yusril.submission_pemula.R
 import com.yusril.submission_pemula.model.Menu
 
