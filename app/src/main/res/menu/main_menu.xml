@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_list"
+        android:title="@string/mode_list"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_grid"
+        android:title="@string/mode_grid"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_cardview_list"
+        android:title="@string/mode_card_vertical"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_cardview"
+        android:title="@string/mode_card_horizontal"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_profil"
+        android:title="@string/profil"
+        app:showAsAction="never"/>
+</menu>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="24dp"
+    app:cardCornerRadius="25dp">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/foto_menu"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:padding="30dp"
+
+            android:contentDescription="@string/foto_menu"
+
+            android:scaleType="fitXY"
+            android:src="@drawable/foto_menu"
+
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.173" />
+
+        <TextView
+            android:id="@+id/txt_nama_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_margin="16dp"
+
+            android:fontFamily="@font/poppins_semibold"
+            android:text="@string/bento_special"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.062"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/foto_menu" />
+
+        <TextView
+            android:id="@+id/txt_harga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_harga"
+            android:fontFamily="@font/poppins_semibold"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/margin8"
+            android:text="@string/rp_60_000"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.118"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_nama_menu"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageButton
+            android:id="@+id/btn_pesan"
+            android:layout_width="145dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="@dimen/margin8"
+
+            android:foreground="@color/red"
+            android:background="?android:selectableItemBackgroundBorderless"
+            android:text="@string/pesan"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_harga"
+            app:layout_constraintVertical_bias="1.0"
+            android:contentDescription="@string/pesan" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:text="@string/pesan"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/btn_pesan"
+            app:layout_constraintStart_toStartOf="@+id/btn_pesan"
+            app:layout_constraintTop_toTopOf="@+id/btn_pesan" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

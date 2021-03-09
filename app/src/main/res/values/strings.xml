@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Katalog Makanan Hokben</string>
+    <string name="mode_list">Mode List</string>
+    <string name="mode_grid">Mode Grid</string>
+    <string name="mode_card">Mode Card</string>
+    <string name="logo_hokben">Logo Hokben</string>
+    <string name="judul">Judul</string>
+    <string name="foto_menu">Foto Menu</string>
+    <string name="bento_special">BENTO SPECIAL</string>
+    <string name="rp_60_000">Rp 60.000</string>
+    <string name="pesan">+ Pesan</string>
+    <string name="mode_card_horizontal">Mode Card Horizontal</string>
+    <string name="mode_card_vertical">Mode Card Vertical</string>
+    <string name="profil">Profil</string>
+    <string name="rp_30_000">Rp. 30.000</string>
+    <string name="isi_komposisi">Isi Komposisi</string>
+    <string name="komposisi">Komposisi</string>
+    <string name="share">Share</string>
+</resources>

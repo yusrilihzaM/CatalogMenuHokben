@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/white"
+    android:layout_marginLeft="@dimen/margin8"
+    android:layout_marginTop="@dimen/margin4"
+    android:layout_marginRight="@dimen/margin8"
+    android:layout_marginBottom="@dimen/margin4"
+    android:id="@+id/item_list"
+    android:padding="16dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/foto_menu"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="@dimen/margin16"
+        tools:src="@android:color/darker_gray"
+        android:contentDescription="@string/foto_menu"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txt_nama_menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin8"
+            android:textSize="@dimen/size_text_title"
+            android:textStyle="bold"
+            tools:text="@string/judul" />
+        <TextView
+            android:id="@+id/txt_harga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="2"
+            tools:text="harga" />
+    </LinearLayout>
+</LinearLayout>
